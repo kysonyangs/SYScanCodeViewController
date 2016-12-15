@@ -8,6 +8,10 @@ pod 'SYScanCodeViewController', '~> 0.0.4'
 ```
 
 # Usage:
+由于iOS10访问相册与相机需要权限，所以首先要在info.plist配置一下
+ Privacy - Photo Library Usage Description  Or  NSPhotoLibraryUsageDescription
+ Privacy - Camera Usage Description Or  NSCameraUsageDescription
+ 
 导入头文件
 ```
 #import "SYScanCodeViewController.h"
@@ -36,7 +40,7 @@ scan.backImageName = @"back";
 ```
 
 # 效果图
-![](http://7xsuaf.com1.z0.glb.clouddn.com/ThreePart/City.gif)
+![](http://7xsuaf.com1.z0.glb.clouddn.com/ThreePart/Scan.gif)
 
 
 # iteration:
