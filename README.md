@@ -4,7 +4,7 @@
 
 # CocoaPods:
 ```
-pod 'SYScanCodeViewController', '~> 0.0.4'
+pod 'SYScanCodeViewController', '~> 0.0.2'
 ```
 
 # Usage:
